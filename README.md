@@ -21,7 +21,7 @@ Supports **automatic RGB register mapping** depending on the module version (V1 
 
 | LCD Pin | Description | ESP32 Pin |
 |----------|--------------|-----------|
-| VCC      | +5V          | 5V        |
+| VCC      | +5V-3v3      | 5V-3v3    |
 | GND      | Ground       | GND       |
 | SDA      | I²C Data     | GPIO 21   |
 | SCL      | I²C Clock    | GPIO 22   |
